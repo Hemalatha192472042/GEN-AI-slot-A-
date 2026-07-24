@@ -1,0 +1,44 @@
+Zero-shot Prompt
+Prompt:
+Generate a promotional social media post for an AI Workshop.
+
+Generated Response
+🚀 Join Our AI Workshop!
+Learn the fundamentals of Artificial Intelligence, Machine Learning, and Prompt Engineering from industry experts. Gain hands-on experience 
+and earn a certificate. Register now and take the first step toward your AI journey!
+
+
+
+
+One-shot Prompt
+Prompt:
+Example:
+Generate a promotional social media post for a Data Science Workshop.
+Now generate a promotional social media post for an AI Workshop.
+
+Generated Response
+🌟 AI Workshop 2026
+Discover the exciting world of Artificial Intelligence through interactive sessions, live demonstrations, and practical activities. 
+Learn from experts, build AI skills, and receive a participation certificate. Limited seats available—register today!
+
+
+
+
+Few-shot Prompt
+Prompt:
+Example 1:
+Generate a promotional post for a Cybersecurity Workshop.
+Example 2:
+Generate a promotional post for a Cloud Computing Seminar.
+Now generate a promotional social media post for an AI Workshop.
+
+Generated Response
+🤖 Unlock the Power of Artificial Intelligence!
+Join our AI Workshop to explore Machine Learning, Generative AI, Prompt Engineering, and real-world AI applications. Enjoy expert 
+guidance, hands-on projects, networking opportunities, and a certificate of participation. Register now and shape your future with AI!
+
+Comparison
+Prompt Type	  Creativity	   Clarity	    Promotional Appeal
+Zero-shot	    Good	         Good	        Good
+One-shot	    Very Good	     Very Good	  Very Good
+Few-shot	    Excellent	     Excellent	  Excellent
