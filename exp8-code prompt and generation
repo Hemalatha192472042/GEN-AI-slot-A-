@@ -1,0 +1,43 @@
+Zero-shot Prompt
+Prompt:
+Summarize the following article in exactly 50 words.
+Generated Response
+Artificial Intelligence enhances automation, improves efficiency, and supports intelligent decision-making across 
+multiple industries. It is widely applied in healthcare, education, agriculture, finance, and transportation to solve complex problems, 
+increase productivity, and reduce human effort. AI continues to transform the way organizations operate and deliver services effectively.
+
+
+
+One-shot Prompt
+Prompt:
+Example:
+Article: Renewable energy reduces pollution and supports sustainable development.
+Summary: Renewable energy helps reduce pollution while promoting sustainable development and environmental protection.
+Now summarize the given article in 50 words.
+Generated Response
+Artificial Intelligence improves automation, increases efficiency, and enhances decision-making across various sectors. It supports 
+industries such as healthcare, education, agriculture, finance, and transportation by solving complex challenges, improving productivity, 
+and reducing manual effort. AI continues to drive innovation and transform modern industries worldwide.
+
+
+
+
+Few-shot Prompt
+Prompt:
+Example 1:
+Article: Climate change affects ecosystems worldwide.
+Summary: Climate change impacts ecosystems and requires sustainable solutions.
+Example 2:
+Article: Renewable energy reduces pollution.
+Summary: Renewable energy promotes environmental sustainability.
+Now summarize the given article in 50 words.
+Generated Response
+Artificial Intelligence is transforming industries through automation, intelligent decision-making, and improved efficiency. 
+It benefits healthcare, education, agriculture, finance, and transportation by solving complex problems, increasing productivity, and 
+reducing human effort. AI continues to reshape modern society through innovative and efficient technological solutions.
+
+Comparison
+Prompt Type	    Accuracy	Completeness	Readability
+Zero-shot     	Good	    Moderate	    Good
+One-shot	      Very Good	Good	        Very Good
+Few-shot	      Excellent	Excellent	    Excellent
