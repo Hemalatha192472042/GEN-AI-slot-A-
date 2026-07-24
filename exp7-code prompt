@@ -1,0 +1,23 @@
+Zero-shot Prompt
+Prompt:
+Write a 200-word blog on "Applications of Artificial Intelligence in Healthcare."
+
+
+One-shot Prompt
+Prompt:
+Example:
+Topic: Artificial Intelligence in Education
+Blog: Artificial Intelligence is transforming education by enabling personalized learning, automating grading, and improving student engagement.
+Now write a 200-word blog on Applications of Artificial Intelligence in Healthcare.
+
+
+Few-shot Prompt
+Prompt:
+Example 1:
+Topic: AI in Education
+Blog: AI personalizes learning and automates educational tasks.
+Example 2:
+Topic: AI in Agriculture
+Blog: AI helps farmers monitor crops, predict weather, and improve productivity.
+Now write a 200-word blog on Applications of Artificial Intelligence in Healthcare.
+
