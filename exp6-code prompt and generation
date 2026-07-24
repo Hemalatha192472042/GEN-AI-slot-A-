@@ -1,0 +1,57 @@
+Zero-shot Prompt
+Prompt:
+Generate a product description for a Smart Fitness Watch.
+
+Generated Response
+Smart Fitness Watch
+Stay active and connected with the Smart Fitness Watch, your perfect health companion. It features real-time heart rate monitoring, 
+step counting, sleep tracking, calorie tracking, and multiple sports modes to support your fitness goals. Receive call, message, and 
+app notifications directly on your wrist. Its water-resistant design, long-lasting battery, and stylish appearance make it suitable for 
+everyday use. Whether you are exercising or managing your daily routine, the Smart Fitness Watch helps you stay healthy, organized, and connected.
+
+
+
+One-shot Prompt
+Prompt:
+Example:
+Product: Wireless Earbuds
+Description:
+Experience crystal-clear sound with Wireless Earbuds. They feature Bluetooth connectivity, noise cancellation, long battery life, and a comfortable design, making them perfect for music, calls, and entertainment.
+Now generate a product description for a Smart Fitness Watch.
+
+Generated Response
+Smart Fitness Watch
+Achieve your fitness goals with the Smart Fitness Watch. It offers heart rate monitoring, blood oxygen tracking, 
+sleep analysis, step counting, calorie tracking, and multiple workout modes. Stay connected with call and message 
+notifications while enjoying a sleek, lightweight, and water-resistant design. With a powerful battery that lasts for 
+days, this smartwatch combines style, comfort, and advanced health tracking to support a healthier and more active lifestyle.
+
+
+
+Few-shot Prompt
+Prompt:
+Example 1:
+Product: Wireless Earbuds
+Description:
+Enjoy premium sound quality with Bluetooth connectivity, noise cancellation, and long battery life.
+Example 2:
+Product: Smart Speaker
+Description:
+Control your smart home with voice commands, stream music, and access instant information through an intelligent smart speaker.
+Now generate a product description for a Smart Fitness Watch.
+
+Generated Response
+Smart Fitness Watch
+Take control of your health and fitness with the Smart Fitness Watch. Designed with advanced features such as heart rate monitoring, 
+blood oxygen measurement, sleep tracking, stress monitoring, GPS, step counting, calorie tracking, and multiple sports modes, 
+it helps you stay fit every day. Receive instant notifications for calls, messages, and social media apps without reaching for your phone. 
+Its elegant design, water resistance, and long battery life make it the ideal companion for workouts, office use, and daily activities.
+
+
+
+Comparison
+Prompt Type	Accuracy	Detail	Quality
+Zero-shot	Good	Basic	General description without examples
+One-shot	Very Good	Detailed	Better structure and richer content
+Few-shot	Excellent	Highly Detailed	Most informative, professional, and well-organized
+
