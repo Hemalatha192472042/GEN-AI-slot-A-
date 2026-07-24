@@ -1,0 +1,57 @@
+Zero-shot Prompt
+Prompt:
+Write a 200-word blog on "Applications of Artificial Intelligence in Healthcare."
+Generated Response
+Artificial Intelligence (AI) is transforming the healthcare industry by improving the accuracy, efficiency, and quality of medical services. 
+AI-powered systems help doctors diagnose diseases such as cancer, diabetes, and heart conditions at an early stage by analyzing medical images and patient records. 
+Virtual assistants and chatbots provide 24/7 support by answering patient queries and scheduling appointments. 
+AI also plays an important role in drug discovery by reducing the time and cost required to develop new medicines. 
+Wearable devices powered by AI monitor heart rate, sleep, and physical activity, enabling continuous health tracking. 
+Hospitals use AI to manage patient records, predict disease outbreaks, and optimize resource allocation. By reducing human errors and 
+supporting medical professionals in decision-making, AI improves patient care and treatment outcomes. As technology advances, 
+AI will continue to make healthcare more accessible, efficient, and personalized for people around the world.
+
+
+
+One-shot Prompt
+Prompt:
+Example:
+Topic: Artificial Intelligence in Education
+Blog: Artificial Intelligence is transforming education by enabling personalized learning, automating grading, and improving student engagement.
+Now write a 200-word blog on Applications of Artificial Intelligence in Healthcare.
+Generated Response
+Artificial Intelligence has become one of the most significant technologies in modern healthcare. It assists doctors in diagnosing 
+diseases with greater accuracy using advanced image analysis and predictive algorithms. AI-powered robots support surgeons during 
+complex operations, while virtual assistants help patients book appointments and receive medical guidance. Hospitals use AI to manage 
+patient records efficiently and improve administrative tasks. Wearable health devices continuously monitor vital signs and notify users 
+of potential health risks. AI also accelerates drug discovery and medical research, reducing the time needed to develop new treatments. 
+Additionally, predictive analytics helps healthcare professionals identify disease risks and recommend preventive measures. Although challenges 
+such as data privacy and ethical concerns remain, AI continues to improve the quality of healthcare services. By combining intelligent technology with 
+medical expertise, AI is creating a future where healthcare is faster, smarter, and more personalized.
+
+
+
+Few-shot Prompt
+Prompt:
+Example 1:
+Topic: AI in Education
+Blog: AI personalizes learning and automates educational tasks.
+Example 2:
+Topic: AI in Agriculture
+Blog: AI helps farmers monitor crops, predict weather, and improve productivity.
+Now write a 200-word blog on Applications of Artificial Intelligence in Healthcare.
+Generated Response
+Artificial Intelligence is revolutionizing healthcare by providing intelligent solutions for diagnosis, treatment, and patient care. 
+AI algorithms analyze medical images such as X-rays and MRI scans to detect diseases quickly and accurately. Smart wearable devices monitor heart rate, 
+blood oxygen, sleep, and physical activity, helping users maintain better health. AI-powered chatbots assist patients by answering health-related questions 
+and scheduling appointments. Hospitals use AI to manage patient records, predict disease outbreaks, and optimize medical resources. 
+In pharmaceutical research, AI speeds up drug discovery and clinical trials, reducing development costs and time. Robotic surgery systems 
+improve surgical precision and minimize recovery time. Predictive analytics allows doctors to identify health risks early and recommend preventive treatments. 
+Although AI cannot replace healthcare professionals, it enhances their efficiency and supports better decision-making. As AI technology continues to evolve, 
+it will play an even greater role in delivering affordable, accurate, and personalized healthcare services worldwide.
+
+Comparison
+Prompt Type	    Accuracy	   Detail	          Readability
+Zero-shot	      Good	       Moderate	        Good
+One-shot	      Very Good	   Detailed	        Very Good
+Few-shot	      Excellent	   Highly Detailed	Excellent
