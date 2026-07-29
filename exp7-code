@@ -1,0 +1,23 @@
+from google import genai
+
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
+
+tasks = {
+    "Summarization":
+    "Summarize the following text in 50 words:\nArtificial Intelligence is transforming healthcare by assisting doctors in diagnosis and treatment.",
+
+    "Email":
+    "Write a professional email requesting leave for two days due to illness.",
+
+    "Content Generation":
+    "Write a 150-word blog about the importance of Artificial Intelligence in education."
+}
+
+for task, prompt in tasks.items():
+    print("="*50)
+    print(task)
+    response = client.models.generate_content(
+        model="gemini-3.5-flash",
+        contents=prompt
+    )
+    print(response.text)
