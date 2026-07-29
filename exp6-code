@@ -1,0 +1,55 @@
+from google import genai
+
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
+
+# Zero-shot Prompt
+zero_shot = """
+Write a product description for a Smart Fitness Watch.
+"""
+
+# One-shot Prompt
+one_shot = """
+Example:
+Input: Wireless Bluetooth Earbuds
+Output:
+The Wireless Bluetooth Earbuds deliver crystal-clear sound, long battery life, and a comfortable fit for everyday use.
+
+Now write a product description for:
+Smart Fitness Watch
+"""
+
+# Few-shot Prompt
+few_shot = """
+Example 1:
+Input: Wireless Bluetooth Earbuds
+Output:
+The Wireless Bluetooth Earbuds provide immersive sound, long battery life, and a comfortable design.
+
+Example 2:
+Input: Gaming Laptop
+Output:
+The Gaming Laptop delivers high-speed performance, powerful graphics, and smooth gameplay.
+
+Example 3:
+Input: Smartphone
+Output:
+The Smartphone offers a high-resolution camera, fast processor, and long-lasting battery.
+
+Now write a product description for:
+Smart Fitness Watch
+"""
+
+prompts = {
+    "Zero-shot": zero_shot,
+    "One-shot": one_shot,
+    "Few-shot": few_shot
+}
+
+for name, prompt in prompts.items():
+    print("="*50)
+    print(name)
+    response = client.models.generate_content(
+        model="gemini-3.5-flash",
+        contents=prompt
+    )
+    print(response.text)
