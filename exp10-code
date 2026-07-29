@@ -1,0 +1,48 @@
+from google import genai
+
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
+
+prompts = {
+    "Zero-shot": "Explain Artificial Intelligence.",
+
+    "One-shot":
+    """
+Example:
+Question: Explain Machine Learning.
+Answer:
+Machine Learning is a subset of AI that enables computers to learn from data.
+
+Now explain Artificial Intelligence.
+    """,
+
+    "Few-shot":
+    """
+Example 1:
+Question: Explain Machine Learning.
+Answer:
+Machine Learning enables computers to learn from data.
+
+Example 2:
+Question: Explain Deep Learning.
+Answer:
+Deep Learning uses neural networks with multiple layers.
+
+Example 3:
+Question: Explain Natural Language Processing.
+Answer:
+NLP helps computers understand human language.
+
+Now explain Artificial Intelligence.
+    """
+}
+
+for strategy, prompt in prompts.items():
+    print("="*50)
+    print(strategy)
+
+    response = client.models.generate_content(
+        model="gemini-3.5-flash",
+        contents=prompt
+    )
+
+    print(response.text)
