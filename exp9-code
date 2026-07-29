@@ -1,0 +1,18 @@
+from google import genai
+
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
+
+prompt = """
+Generate:
+
+1. Python code to find the factorial of a number.
+
+2. SQL query to display all students whose marks are greater than 80.
+"""
+
+response = client.models.generate_content(
+    model="gemini-3.5-flash",
+    contents=prompt
+)
+
+print(response.text)
